@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">DriverApp</string>
+    <string name="wel">Welcome</string>
+    <string name="dis_log">to Dispatch Login</string>
+    <string name="flo_log">to Florist Login</string>
+    <string name="user_pass">Enter your Username and Password</string>
+    <string name="trips">Trips</string>
+    <string name="orders">Orders</string>
+    <string name="confirm_delivery">Confirm Delivery</string>
+    <string name="capture_design">Capture Design Image</string>
+    <string name="map">Map</string>
+    <string name="about">About</string>
+    <string name="logout">Logout</string>
+
+</resources>

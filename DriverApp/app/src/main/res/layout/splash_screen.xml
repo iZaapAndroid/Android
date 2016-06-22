@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/splash_bg">
+
+    <ImageView
+        android:id="@+id/hana"
+        android:layout_width="350sp"
+        android:layout_height="200sp"
+        android:src="@drawable/logo"
+        android:layout_gravity="center"
+        android:layout_marginTop="50sp"/>
+    
+    <ImageView
+        android:id="@+id/splash_image"
+        android:layout_width="200sp"
+        android:layout_height="200sp"
+        android:src="@drawable/florist_lock_btn"
+        android:layout_gravity="center"
+        android:layout_marginTop="60sp"/>
+
+</LinearLayout>

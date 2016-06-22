@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/dispatch_bg">
+
+    <include
+        android:id="@+id/action_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/capture_design_actionbar"/>
+
+    <ImageView
+        android:id="@+id/start_scanning"
+        android:layout_width="wrap_content"
+        android:layout_marginRight="40sp"
+        android:layout_marginLeft="40sp"
+        android:layout_height="220sp"
+        android:background="@drawable/start_scanning_icon"
+        android:layout_gravity="center"
+        android:layout_marginTop="20sp"/>
+
+    <ImageView
+        android:id="@+id/take_photo"
+        android:layout_width="wrap_content"
+        android:layout_marginRight="40sp"
+        android:layout_marginLeft="40sp"
+        android:layout_height="220sp"
+        android:background="@drawable/takephoto_text_icon"
+        android:layout_gravity="center"
+        android:layout_marginTop="30sp"/>
+
+    <Button
+        android:id="@+id/confirm_btn"
+        android:layout_width="match_parent"
+        android:layout_marginRight="40sp"
+        android:layout_marginLeft="40sp"
+        android:layout_height="50dp"
+        android:layout_marginTop="30sp"
+        android:textColor="@color/white"
+        android:text="Submit"
+        android:textSize="20sp"
+        android:background="@color/blue"
+        android:layout_gravity="center"
+        android:textAllCaps="false"/>
+
+</LinearLayout>
