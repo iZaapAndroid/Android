@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">DriverApp</string>
+    <string name="app_name">HanaViewers</string>
     <string name="wel">Welcome</string>
     <string name="dis_log">to Dispatch Login</string>
     <string name="flo_log">to Florist Login</string>

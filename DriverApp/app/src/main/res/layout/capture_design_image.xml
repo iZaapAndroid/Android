@@ -5,11 +5,45 @@
     android:layout_height="match_parent"
     android:background="@drawable/dispatch_bg">
 
-    <include
-        android:id="@+id/action_bar"
+    <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        layout="@layout/capture_design_actionbar"/>
+        android:layout_height="50sp"
+        android:background="@color/trips_actionbar_bg_color">
+
+        <ImageView
+            android:id="@+id/back_arrow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15sp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/back_arrow"/>
+
+        <TextView
+            android:id="@+id/capture"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/capture_design"
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            android:gravity="center"
+            android:layout_gravity="center_vertical"
+            android:fontFamily="sans-serif"/>
+
+
+        <ImageView
+            android:id="@+id/florist_menu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="15sp"
+            android:src="@drawable/menu_icon" />
+
+
+    </RelativeLayout>
+
 
     <ImageView
         android:id="@+id/start_scanning"

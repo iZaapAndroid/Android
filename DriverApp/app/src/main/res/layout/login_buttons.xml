@@ -23,8 +23,8 @@
         android:layout_marginTop="60sp"/>
 
     <Button
-        android:id="@+id/dis_btn"
-        android:layout_width="wrap_content"
+        android:id="@+id/dispatch_btn"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@drawable/dispatch_login"
         android:layout_gravity="center"
@@ -32,8 +32,8 @@
         android:layout_marginRight="10sp"/>
 
     <Button
-        android:id="@+id/flo_btn"
-        android:layout_width="wrap_content"
+        android:id="@+id/florist_btn"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@drawable/florist_login"
         android:layout_gravity="center"
